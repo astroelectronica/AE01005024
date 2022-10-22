@@ -15,4 +15,4 @@
 - astroelectronic@: https://astroelectronic.wordpress.com
 - Kicad: https://www.kicad.org/
 - LTSpice: https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html
-- ZMR500: https://www.diodes.com/part/view/ZMR500/
+- MAX15006A: https://www.maximintegrated.com/en/products/power/linear-regulators/MAX15006.html
