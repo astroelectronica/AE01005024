@@ -1,0 +1,13 @@
+.title KiCad schematic
+.include "../models/C2012X7R2A104K125AA_p.mod"
+.include "../models/C3216X5R1C106M160AA_p.mod"
+.include "../models/C3216X7R2A105M160AA_p.mod"
+.include "../models/MAX15006A.lib"
+XU1 /VIN unconnected-_U1-Pad2_ unconnected-_U1-Pad3_ unconnected-_U1-Pad4_ 0 unconnected-_U1-Pad6_ unconnected-_U1-Pad7_ /VOUT MAX15006A
+XU3 /VIN 0 C2012X7R2A104K125AA_p
+XU4 /VOUT 0 C3216X5R1C106M160AA_p
+XU5 /VOUT 0 C2012X7R2A104K125AA_p
+I1 /VOUT 0 {ILOAD}
+XU2 /VIN 0 C3216X7R2A105M160AA_p
+V1 /VIN 0 {VSOURCE}
+.end
