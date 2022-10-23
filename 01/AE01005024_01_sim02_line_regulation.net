@@ -1,0 +1,7 @@
+*line regulation
+.include AE01005024_01.cir
+.param VSOURCE=12
+.param ILOAD=0.01
+.dc V1 5 {VSOURCE} 0.001
+.backanno
+.op
