@@ -9,6 +9,7 @@
 - Basic configuration
 - LTSpice
 - sim01 load regulation. Iload sweep.
+- sim02 line regulation. Vsource sweep.
 
 ### References
 
