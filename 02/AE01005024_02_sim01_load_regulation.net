@@ -1,0 +1,25 @@
+.title KiCad schematic
+.include "/home/astroelectronica/kicad/projects/AE01005024/02/../models/C2012X7R2A104K125AA_p.mod"
+.include "/home/astroelectronica/kicad/projects/AE01005024/02/../models/C3216X5R1C106M160AA_p.mod"
+.include "/home/astroelectronica/kicad/projects/AE01005024/02/../models/C3216X7R2A105M160AA_p.mod"
+.include "/home/astroelectronica/kicad/projects/AE01005024/02/../models/MAX15006A.lib"
+I1 /VOUT 0 dc(1)
+XU4 /VOUT 0 C3216X5R1C106M160AA_p
+XU5 /VOUT 0 C2012X7R2A104K125AA_p
+XU1 /VIN unconnected-_U1-Pad2_ unconnected-_U1-Pad3_ unconnected-_U1-Pad4_ 0 unconnected-_U1-Pad6_ unconnected-_U1-Pad7_ /VOUT MAX15006A
+XU3 /VIN 0 C2012X7R2A104K125AA_p
+XU2 /VIN 0 C3216X7R2A105M160AA_p
+V1 /VIN 0 dc 5
+.save @v1[i]
+.save V(/VIN)
+.save V(/VOUT)
+.save V(unconnected-_U1-Pad2_)
+.save V(unconnected-_U1-Pad3_)
+.save V(unconnected-_U1-Pad4_)
+.save V(unconnected-_U1-Pad6_)
+.save V(unconnected-_U1-Pad7_)
+.dc I1 0 50m 1m
+
+.end
+
+
